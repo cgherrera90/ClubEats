@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Fuggles&family=Inclusive+Sans&family=Josefin+Sans&display=swap');
+
+.Business {
+    border: double;
+    background: rgba(255, 255, 255, 0.8);
+    color: black;
+    padding: 0;
+}
+
+.imageSection {
+    height: 10rem;
+    width: 20rem;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1.5em;
+}
+
+h1 {
+    font-style: bold;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 40px;
+    margin-top: 0.3em;
+    margin-bottom: 0;
+}
+
+.address {
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+p {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 15px;
+    margin-bottom: auto;
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+.favoriteButton {
+    width: 2em;
+    padding: 0;
+    margin-top: 1em;
+    margin-bottom: 0;
+    background: transparent;
+    border: none;
+}
+
+/* ♡ */

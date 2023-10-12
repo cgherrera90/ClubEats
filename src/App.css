@@ -1,0 +1,12 @@
+html {
+  background-color: maroon;
+}
+
+.App {
+  text-align: center;
+}
+
+.background {
+  background-image: url("../public/FoodPicture.png");
+  height: 25rem;
+}

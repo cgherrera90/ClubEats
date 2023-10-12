@@ -1,0 +1,9 @@
+.Favorites {
+    color: white;
+    text-align: center;
+}
+
+.searchBar {
+    display: flex;
+    justify-content: center;
+}

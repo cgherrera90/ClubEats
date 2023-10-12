@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Fuggles&family=Inclusive+Sans&family=Josefin+Sans&display=swap');
+
+.SearchBar {
+  display: inline-block;
+  background: rgba(128, 0, 0, 0.85);
+  border: 1px solid black;
+  padding-top: 0;
+  padding-bottom: 1em;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding-left: 0;
+}
+
+li {
+    font-size: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+    color: rgb(247, 230, 130);
+    margin: 0 1rem;
+}
+
+.sortOptions li.active,
+.sortOptions li.active:hover {
+  border-bottom: 1px solid #f0c36c;
+  color: coral;
+}
+
+.sortOptions li:hover, .sortOptions li:focus {
+  color: white;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+}
+
+.search, .location {
+  border-radius: 5px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: bold;
+  padding: 1em;
+}
+
+button {
+    background: white;
+    padding-top: 0.15rem;
+    padding-bottom: 0.62rem;
+    padding-right: 0.6rem;
+    padding-left: 0.5rem;
+    border-radius: 5px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: .01rem;
+}
+

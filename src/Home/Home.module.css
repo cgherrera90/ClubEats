@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Fuggles&family=Inclusive+Sans&family=Josefin+Sans&display=swap');
+
+.Home h1 {
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 5rem;
+    margin-top: 0.3em;
+    margin-bottom: 0;
+}
+
+.Home p {
+    color: white;
+    font-family: 'Caveat', sans-serif;
+    font-size: 3rem;
+    font-weight: 600;
+    margin-top: 0.1em;
+    margin-bottom:0.3em;
+}
+
+.img {
+    height: 150px;
+    width: 130px;
+    padding-left: 0.3em;
+    padding-top: 0;
+    padding-bottom: 0.3em;
+}
