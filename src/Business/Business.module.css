@@ -44,20 +44,10 @@ p {
     color: black;
 }
 
-.buttonContainer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 0;
-}
-
 .favoriteButton {
     width: 2em;
     padding: 0;
-    margin-top: 1em;
+    margin-left: 14.7em;
     margin-bottom: 0;
     background: transparent;
-    /* border: none; */
 }
-
-/* ♡ */

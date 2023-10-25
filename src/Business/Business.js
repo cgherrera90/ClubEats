@@ -13,6 +13,7 @@ const Business = ({ business }) => {
 
     return (
         <div className={styles.Business}>
+             <button onClick={addToFavorites} className={styles.favoriteButton}>{text}</button> 
             <div className={styles.imageSection}>
               <img src= {business.imageSrc} alt= '' />
             </div>
@@ -22,15 +23,11 @@ const Business = ({ business }) => {
                 <p>Category: {business.category}</p>
                 <p>Rating: {business.rating}</p>
                 <p>Review Count: {business.reviewCount}</p>
-                <div className={styles.buttonContainer}>
-                    <button onClick={addToFavorites} className={styles.favoriteButton}>{text}</button>
                 </div>
             </div>
-        </div>
     );
 };
 
 //"♡" ? "❤️" : "♡"
-
 
 export default Business;
