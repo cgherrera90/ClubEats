@@ -13,7 +13,7 @@ const Business = ({ business }) => {
 
     return (
         <div className={styles.Business}>
-             <button onClick={addToFavorites} className={styles.favoriteButton}>{text}</button> 
+            <button className={styles.favoriteButton} onClick={addToFavorites}>{text}</button>
             <div className={styles.imageSection}>
               <img src= {business.imageSrc} alt= '' />
             </div>
