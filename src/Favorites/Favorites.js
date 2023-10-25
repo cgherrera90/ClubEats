@@ -1,6 +1,5 @@
 import React from 'react';
 import Navbar from '../Navbar/Navbar';
-import SearchBar from '../SearchBar/SearchBar';
 import styles from './Favorites.module.css';
 
 const Favorites = () => {
@@ -23,14 +22,20 @@ const Favorites = () => {
 // console.log("Add Book")
 // renderAllBooks(addBook(bookList));
 // })
+   
+
     return (
-        <div className={styles.Favorites}>
-            <Navbar />
-            <div className={styles.searchBar}>
-              <SearchBar />
+        <div>
+            <div className={styles.navbarContainer}>
+                <Navbar />
             </div>
-            <h2>Your Favorite Restaurants:</h2>
-            <p>Here will be a list of favorited restaurants</p>
+            <div className={styles.favoritesContainer}>
+                <div className={styles.favorites}>
+                    <h2>Your Favorite Restaurants:</h2>
+                    <p>Here will be a list of favorited restaurants</p>
+                    {/* <div>{renderFavorites}</div> */}
+                </div>
+            </div>
         </div>
     )
 }

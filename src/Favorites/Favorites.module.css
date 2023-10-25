@@ -1,9 +1,18 @@
-.Favorites {
-    color: white;
-    text-align: center;
+.navbarContainer {
+    margin-bottom: 0;
+    padding-bottom: 0;
 }
 
-.searchBar {
-    display: flex;
-    justify-content: center;
+.favorites {
+    background: white;
+    color: maroon;
+    text-align: center;
+    margin: 0 auto;
+    height: 30rem;
+    width: 60%;
 }
+
+.favorites p {
+    color: maroon;
+}
+

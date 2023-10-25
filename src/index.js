@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './index.css';
 import App from './App';
-import Explore from './Explore/Explore';
+import About from './About/About';
 import Favorites from './Favorites/Favorites';
 import reportWebVitals from './reportWebVitals';
 
@@ -13,7 +13,7 @@ root.render(
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<App />} />
-        <Route path="/explore" element={<Explore />} />
+        <Route path="/about" element={<About />}/>
         <Route path="/favorites" element={<Favorites />} />
       </Routes>
     </BrowserRouter>

@@ -3,8 +3,7 @@
 .Business {
     border: double;
     background: rgba(255, 255, 255, 0.8);
-    color: black;
-    padding: 0;
+    padding: 0.5em;
 }
 
 .imageSection {
@@ -28,6 +27,7 @@ h1 {
     font-style: bold;
     font-family: 'Josefin Sans', sans-serif;
     font-size: 40px;
+    color: maroon;
     margin-top: 0.3em;
     margin-bottom: 0;
 }
@@ -41,6 +41,7 @@ p {
     font-family: 'Josefin Sans', sans-serif;
     font-size: 15px;
     margin-bottom: auto;
+    color: black;
 }
 
 .buttonContainer {
@@ -56,7 +57,7 @@ p {
     margin-top: 1em;
     margin-bottom: 0;
     background: transparent;
-    border: none;
+    /* border: none; */
 }
 
 /* ♡ */

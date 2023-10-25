@@ -12,7 +12,7 @@ const Navbar = () => {
             <nav className={styles.nav}>
               <ul>
                 <li><Link reloadDocument to ="/">Home</Link></li>
-                <li><Link to="/explore">Explore</Link></li>
+                <li><Link to="/about">About</Link></li>
                 <li><Link to="/favorites">Favorites</Link></li>
               </ul>
             </nav>
