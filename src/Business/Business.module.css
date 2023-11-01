@@ -45,9 +45,10 @@ p {
 }
 
 .favoriteButton {
+    font-size: 20px;
     width: 2em;
     padding: 0;
     margin-left: 14.7em;
-    margin-bottom: 0;
+    margin-bottom: 0.5em;
     background: transparent;
 }

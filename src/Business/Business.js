@@ -4,7 +4,6 @@ import styles from './Business.module.css';
 //This component represents how each business restaurant is formatted & styled
 const Business = ({ business }) => {
 
-    // const [ favorite, setFavorite ] = useState([]);
     const [ text, setText ] = useState("♡");
 
     const addToFavorites = () => {
@@ -27,7 +26,5 @@ const Business = ({ business }) => {
             </div>
     );
 };
-
-//"♡" ? "❤️" : "♡"
 
 export default Business;
