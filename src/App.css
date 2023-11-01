@@ -9,7 +9,6 @@ html {
 .background {
   background-image: url("../public/FoodPicture.png");
   height: 25.05rem;
-  /* width: 100%; */
   width: 93%;
   margin: 0 auto;
   background-repeat: repeat;
