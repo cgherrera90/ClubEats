@@ -1,5 +1,6 @@
 import React from 'react';
 import Navbar from '../Navbar/Navbar';
+import styles from './About.module.css';
 
 const About = () => {
     return (
@@ -7,8 +8,10 @@ const About = () => {
             <div>
                 <Navbar />
             </div>
-            <p>All about this wonderful app!</p>
-        </div>
+            <div className={styles.background}>
+            </div>
+            <p className={styles.about}>All about this wonderful app!</p>
+            </div>
     )
 }
 
