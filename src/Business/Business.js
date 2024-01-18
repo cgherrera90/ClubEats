@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from "react-router-dom";
 import styles from './Business.module.css';
 
 //This component represents how each business restaurant is formatted & styled
@@ -17,8 +18,11 @@ const Business = ({ business }) => {
               <img src= {business.imageSrc} alt= '' />
             </div>
             <div className={styles.card}>
-                <h1>{business.name}</h1>
-                <p className={styles.address}>{business.address}, {business.city}, {business.state} {business.zipcode}</p>
+                <h1><Link to="/businesses/id">{business.name}</Link></h1>
+                <p className={styles.address}>{business.address}</p>
+                <p className={styles.address}>{business.address2}</p>
+                <p>Phone: {business.phone}</p>
+                <p>Price: {business.price}</p>
                 <p>Category: {business.category}</p>
                 <p>Rating: {business.rating}</p>
                 <p>Review Count: {business.reviewCount}</p>
