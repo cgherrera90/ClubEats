@@ -14,23 +14,23 @@ const Yelp = {
         return response.json();
        
       })
-      .then((jsonResponse) => {
-        if (jsonResponse.businesses) {
-          return jsonResponse.businesses.map((business) => ({
+      .then((data) => {
+        console.log(data)
+        if (data.businesses) {
+          return data.businesses.map((business) => ({
             id: business.id,
             imageSrc: business.image_url,
             name: business.name,
-            address: business.location.address1,
-            city: business.location.city,
-            state: business.location.state,
-            zipCode: business.location.zip_code,
+            address: business.location.display_address[0],
+            address2: business.location.display_address[1],
+            phone: business.display_phone,
+            price: business.price,
             category: business.categories[0].title,
             rating: business.rating,
             reviewCount: business.review_count,
           }));
         }
       })
-      .catch(error => console.log(error));
   },
 };
 
