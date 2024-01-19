@@ -6,6 +6,16 @@
     padding-top: 1em;
 }
 
+.Business a, .Business a:visited {
+    color: maroon;
+    text-decoration: none;
+}
+
+.Business a:hover,
+.Business a:focus {
+    color: coral;
+}
+
 .imageSection {
     height: 10rem;
     width: 20rem;
@@ -32,16 +42,6 @@ h1 {
     margin-top: 0.2em;
     margin-bottom: 0.4em;
 }
-
-a, a:visited {
-    color: maroon;
-    text-decoration: none;
-}
-
-/* a:hover,
-a:focus {
-    color: coral;
-} */
 
 .address {
     font-style: bold;
