@@ -1,14 +1,19 @@
 .background {
-  background-image: url("../../public/FoodPicture.png");
-  opacity: .40;
-  height: 25.05rem;
-  width: 93%;
-  margin: 0 auto;
-  background-repeat: repeat;
+    background-image: url("../../public/FoodPicture.png");
+    /* opacity: .40; */
+    height: 25.05rem;
+    width: 93%;
+    margin: 0 auto;
+    background-repeat: repeat;
 }
 
 .about {
-    color: white;
+    width: 50%;
+    margin: 1em auto;
+    background: white;
+    opacity: 0.80;
+    color: maroon;
     font-weight: bold;
     text-align: center;
+    padding: 5em 5em;
 }

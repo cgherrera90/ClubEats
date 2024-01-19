@@ -8,10 +8,11 @@ const About = () => {
             <div>
                 <Navbar />
             </div>
-            <div className={styles.background}>
-            </div>
-            <p className={styles.about}>All about this wonderful app!</p>
-            </div>
+            <div className={styles.background}> 
+            </div> 
+            <p className={styles.about}>Club Eats App created by: Carla Herrera, Front-End Developer</p>
+            {/* Add link to portfolio site */}
+        </div>     
     )
 }
 
