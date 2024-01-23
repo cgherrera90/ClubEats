@@ -1,8 +1,7 @@
-import React, { useState } from 'react';
-// import { Link } from "react-router-dom";
+import React from 'react';
 import styles from './Business.module.css';
 
-//This component represents how each business restaurant is formatted & styled
+//This component represents how each business restaurant is formatted & styled using the info returned from Yelp API (determined in Yelp component in utils)
 const Business = ({ business }) => {
 
     return (

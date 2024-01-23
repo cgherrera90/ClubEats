@@ -6,6 +6,7 @@ import App from './App';
 import About from './About/About';
 import reportWebVitals from './reportWebVitals';
 
+//Displays app to React DOM. App routes created using React Router
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>

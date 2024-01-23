@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from '../Navbar/Navbar';
 import styles from './About.module.css';
 
+//This component displays About page regarding the developer of the app
 const About = () => {
     return (
         <div>

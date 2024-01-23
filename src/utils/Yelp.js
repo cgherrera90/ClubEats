@@ -1,5 +1,6 @@
 const apiKey = process.env.REACT_APP_YELP_API_KEY;
 
+//Function fetches from API endpoint using search criteria and returns business info
 const Yelp = {
   search(term, location, sort_by) {
     return fetch(

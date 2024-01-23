@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from "react-router-dom";
 import styles from './Navbar.module.css';
 
+//This component displays the navbar details & links
 const Navbar = () => {
 
     return (
