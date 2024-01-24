@@ -7,3 +7,12 @@
     padding-right: 0.2em;
     padding-bottom: 0.2em;
 }
+
+@media (max-width: 600px) {
+  .BusinessList {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    padding: 1em;
+  }
+}
