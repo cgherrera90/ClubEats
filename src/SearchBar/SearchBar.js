@@ -35,13 +35,14 @@ const SearchBar = ({ searchYelp }) => {
       setLocation(e.target.value);
     }
 
-    //Function uses prop passed down to handle user's search criteria, which will then use that criteria to request info from Yelp API 
+    //The following search function calls the searchYelp function (passed down as a prop) to handle all of the user's search criteria once the form is submitted, which will then use that criteria to request info from Yelp API
     function totalSearch(e) {
       e.preventDefault();
       searchYelp(term, location, sort_by);
     }
 
     //The Object.keys() static method returns an array of a given object's own enumerable string-keyed property names
+    //We can then map through this array to display them as a Sort Options Bar & allow the user to select different sorting options when they search (based on Yelp API options)
     const sortOptionsBar = () => {
         return Object.keys(sortOptions).map((sortOption) => {
           let sortOptionValue = sortOptions[sortOption];
